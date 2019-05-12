@@ -6,15 +6,15 @@ spring:
   application:
     name: jbone-sys-admin
   redis:
-    host: 127.0.0.1
+    host: 111.230.210.200
     port: 6379
-    password: jbone
+    password:
   #rabbitmq配置
   rabbitmq:
-    host: localhost
+    host: 111.230.210.200
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: 123456
   thymeleaf:
     cache: false
     enabled: true
@@ -25,11 +25,11 @@ spring:
 
   datasource:
     username: root
-    password: 123456
+    password: ncsmusicdb
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/jbone_sys?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE&useSSL=false
+    url: jdbc:mysql://111.230.210.200:3306/jbone_sys?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE&useSSL=false
 
-#
+  #
 # 以下为 zipkin客户端配置
 #
   sleuth:

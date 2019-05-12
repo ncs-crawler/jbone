@@ -2,15 +2,15 @@ spring:
   application:
     name: jbone-sm-gateway
   redis:
-    host: 127.0.0.1
+    host: 111.230.210.200
     port: 6379
-    password: jbone
+    password:
   #rabbitmq配置
   rabbitmq:
-    host: localhost
+    host: 111.230.210.200
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: 123456
   #
   # 以下为 zipkin客户端配置
   #

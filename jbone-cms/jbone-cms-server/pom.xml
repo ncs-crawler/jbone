@@ -61,7 +61,7 @@
             <id>dev</id>
             <properties>
                 <profileActive>dev</profileActive>
-                <loggerRoot>/Users/majunwei</loggerRoot>
+                <loggerRoot>/Users/aaron/code/ncs/logs</loggerRoot>
             </properties>
             <activation>
                 <!--指定默认激活-->

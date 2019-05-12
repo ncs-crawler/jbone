@@ -6,10 +6,10 @@ spring:
     name: Jbone-cms-server
   #rabbitmq配置
   rabbitmq:
-    host: localhost
+    host: 111.230.210.200
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: 123456
   jpa:
     show-sql: true
     hibernate:
@@ -22,9 +22,9 @@ spring:
         format_sql: true
   datasource:
     username: root
-    password: 123456
+    password: ncsmusicdb
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/jbone_cms?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE&useSSL=false
+    url: jdbc:mysql://111.230.210.200:3306/jbone_sys?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE&useSSL=false
 
 #
 # 以下为 zipkin客户端配置
